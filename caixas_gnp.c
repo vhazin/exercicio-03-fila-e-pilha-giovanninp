@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-    Professor/Professore: Victor Hazin
-
-    Feito por/Fatto da: Giovanni Netto Procida
-    Instituição/Instituizione: CESAR School
-
-*/
 
 typedef struct Scatola{
     int id;
@@ -70,16 +63,6 @@ void prendereScatola(scatola *radice, int id){
 
 int main(void){
 
-    // scatola *radice = (scatola *)malloc(sizeof(scatola));
-    // radice -> id = 0;
-    // radice -> gruppo = 0;
-    // radice -> pross = NULL;
-    // radice -> livello = livello;
-
-    // scatola *ultima;
-    // livello = 1;
-
-    //numero de caixas e de pilhas:
     int n,p = 1;
     int lett[2];
 
